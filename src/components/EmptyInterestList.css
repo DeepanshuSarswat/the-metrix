@@ -1,0 +1,11 @@
+.EmptyInterestList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    flex-direction: column;
+}
+
+.EmptyInterestList h2 ,.EmptyInterestList p {
+    margin-bottom: 14px;
+}

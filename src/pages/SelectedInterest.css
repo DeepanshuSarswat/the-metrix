@@ -1,0 +1,17 @@
+.interest {
+    padding: 12px;
+    margin: 12px 8px;
+    font-size: 16px;
+    font-weight: 550;
+    color: #10162f;
+    background-color: #66c4ff;
+    border-radius: 12px;
+    animation: fadeIn 1s ease-in-out forwards;
+    box-shadow: rgba(180, 180, 180, 0.24)px 3px 8px;
+}
+
+#selected-itm {
+    
+    box-shadow: rgba(208, 206, 206, 0.24) 0px 3px 8px;
+margin-bottom: 24px;
+}

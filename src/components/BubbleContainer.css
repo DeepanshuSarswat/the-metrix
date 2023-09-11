@@ -1,0 +1,15 @@
+.bubble{
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-size: 0.8rem;
+}
+
+#scale-bubble {
+    cursor: pointer;
+    transform: scale(1.5);
+    
+}
