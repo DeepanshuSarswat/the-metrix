@@ -4,9 +4,9 @@ export const INTERESTS_LIST = [
     'Sports',
     'Travel',
     'Music',
-    'Cooking',
+    'Acting',
     'Art',
-    'Learning',
+    'Yoga',
     'Gym',
 ,
 ];

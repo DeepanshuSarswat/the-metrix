@@ -6,10 +6,12 @@
     justify-content: center;
     padding: 12px;
     font-size: 0.8rem;
+    opacity: 0.4;
 }
 
 #scale-bubble {
     cursor: pointer;
     transform: scale(1.5);
+   opacity: 1;
     
 }

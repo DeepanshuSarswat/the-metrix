@@ -40,23 +40,7 @@
    
 }
 
-.confirm-interest-btn:hover {
-    &:hover {
-		box-shadow: 
-			4px 4px 6px rgba(0,0,0,.2), 
-			5px 10px 35px rgba(0,0,0,.1),
-			8px 10px 25px rgba(0,0,0,.1),
-			inset -1px -1px 9px rgba(0,0,0,.2),
-			inset -1px -1px 3px rgba(255,255,255,.6),
-			inset 1px 1px 8px rgba(255,255,255,1),
-			inset 4px 4px 24px rgba(0,0,0,.15),
-			-5px -5px 15px rgba(255,255,255,.9);
-		transform: scale(.98);
-		
 
-	}
-	
-}
 
 #confirm-interest-id-btn{
     opacity: 1;
@@ -69,11 +53,14 @@
 }
 
 .bubble-container {
+  font-size: 0.7rem;
     padding: 16px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 40px;
+    
 }
 
 .alert {

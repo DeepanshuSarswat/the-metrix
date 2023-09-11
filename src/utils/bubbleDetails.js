@@ -2,7 +2,7 @@ import { getRandomColor } from "./getRandomColor";
 import { getRandomSize } from "./getRandomSize";
 
 export const bubbleDetails = () =>{
-    const size = getRandomSize(65, 70);
+    const size = getRandomSize(60, 90);
     const backgroundColor = getRandomColor();
     
     const style = {

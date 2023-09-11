@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, {useMemo, useState } from 'react';
 import { bubbleDetails } from '../utils/bubbleDetails';
 import "./BubbleContainer.css"
 
 function BubbleContainer({interest,SelectInterest}) {
-    const styles = bubbleDetails();
+    const cachedValue = useMemo(()=>bubbleDetails(), ["abc"])
     const [isBubbleClicked, setIsBubbleClicked] = useState(false);
 
     const handleClick = () => {
@@ -13,7 +13,7 @@ function BubbleContainer({interest,SelectInterest}) {
 
     
     return (
-        <div onClick={handleClick} className='bubble' id={isBubbleClicked && 'scale-bubble'} style={styles} >
+        <div onClick={handleClick} className='bubble' id={isBubbleClicked && 'scale-bubble'} style={cachedValue} >
         {interest} </div>
     );
 }
